@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 15%;
+
+    --primary: 245 58% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 60% 97%;
+    --secondary-foreground: 220 30% 15%;
+
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 245 90% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 91%;
+    --input: 220 20% 91%;
+    --ring: 245 58% 51%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --navy: 230 50% 10%;
+    --navy-light: 230 40% 20%;
+    --purple-glow: 260 80% 65%;
+    --orange: 25 95% 55%;
+    --orange-foreground: 0 0% 100%;
+    --gradient-primary: linear-gradient(135deg, hsl(262 78% 46%), hsl(216 85% 54%));
+    --gradient-navy: linear-gradient(135deg, hsl(236 54% 12%), hsl(224 68% 24%));
+    --section-light: 230 30% 97%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 230 50% 6%;
+    --foreground: 210 40% 98%;
+    --card: 230 40% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 230 40% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 245 70% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 230 30% 15%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 230 20% 15%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 245 90% 70%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 230 20% 18%;
+    --input: 230 20% 18%;
+    --ring: 245 70% 65%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .section-badge {
+    @apply inline-block px-4 py-1.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-primary/10 text-primary;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+    font-family: var(--font-heading);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+    background-image: var(--gradient-primary);
+    color: hsl(var(--primary-foreground));
+  }
+
+  .btn-outline-light {
+    @apply inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-semibold text-sm border-2 border-primary/30 text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground;
+  }
+
+  .card-service {
+    @apply bg-card rounded-2xl p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-border/50;
+  }
+
+  .navy-section {
+    background: var(--gradient-navy);
+    color: hsl(0 0% 100%);
+  }
+
+  .stats-gradient {
+    background: var(--gradient-primary);
+  }
+}

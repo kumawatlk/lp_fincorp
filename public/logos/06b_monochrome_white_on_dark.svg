@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" width="560" height="120">
+  <rect width="560" height="120" fill="#0F172A"/>
+  <rect x="20" y="24" width="72" height="72" rx="14" ry="14" fill="white"/>
+  <text x="56" y="64" text-anchor="middle" dominant-baseline="central"
+    font-family="'Outfit', sans-serif" font-weight="800" font-size="30" fill="#0F172A" letter-spacing="-1">LP</text>
+  <text x="108" y="56" font-family="'Outfit', sans-serif" font-weight="800" font-size="28" fill="white" letter-spacing="-0.5">Lp</text>
+  <text x="142" y="56" font-family="'Outfit', sans-serif" font-weight="400" font-size="28" fill="white" letter-spacing="-0.5"> Fincorp</text>
+  <text x="108" y="82" font-family="'Instrument Sans', sans-serif" font-weight="400" font-size="14" fill="#94A3B8" letter-spacing="3">WEB SOLUTION</text>
+</svg>

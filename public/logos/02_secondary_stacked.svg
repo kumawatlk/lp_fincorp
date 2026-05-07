@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" width="240" height="260">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B21B6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon centered -->
+  <rect x="74" y="10" width="92" height="92" rx="20" ry="20" fill="url(#brandGrad)"/>
+  <text x="120" y="60" text-anchor="middle" dominant-baseline="central"
+    font-family="'Outfit', sans-serif" font-weight="800" font-size="40" fill="white" letter-spacing="-1">LP</text>
+  <circle cx="86" cy="22" r="2.5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="154" cy="22" r="2.5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="86" cy="90" r="2.5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="154" cy="90" r="2.5" fill="rgba(255,255,255,0.3)"/>
+  <line x1="136" y1="82" x2="150" y2="74" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <polyline points="146,72 150,74 148,78" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Company name -->
+  <text x="120" y="140" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="800" font-size="26" letter-spacing="-0.5">
+    <tspan fill="url(#brandGrad)">Lp</tspan><tspan fill="#1E293B"> Fincorp</tspan>
+  </text>
+  <text x="120" y="168" text-anchor="middle" font-family="'Instrument Sans', sans-serif" font-weight="400" font-size="13" fill="#64748B" letter-spacing="4">WEB SOLUTION</text>
+  <!-- Subtle divider line -->
+  <line x1="80" y1="190" x2="160" y2="190" stroke="url(#brandGrad)" stroke-width="1" opacity="0.25"/>
+</svg>

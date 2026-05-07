@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#0F172A"/>
+  <rect x="10" y="10" width="180" height="180" rx="32" ry="32" fill="white"/>
+  <text x="100" y="108" text-anchor="middle" dominant-baseline="central"
+    font-family="'Outfit', sans-serif" font-weight="800" font-size="84" fill="#0F172A" letter-spacing="-2">LP</text>
+  <circle cx="36" cy="36" r="3" fill="rgba(15,23,42,0.15)"/>
+  <circle cx="164" cy="36" r="3" fill="rgba(15,23,42,0.15)"/>
+  <circle cx="36" cy="164" r="3" fill="rgba(15,23,42,0.15)"/>
+  <circle cx="164" cy="164" r="3" fill="rgba(15,23,42,0.15)"/>
+</svg>

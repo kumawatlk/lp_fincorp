@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B21B6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" ry="96" fill="url(#brandGrad)"/>
+  <!-- LP text -->
+  <text x="256" y="270" text-anchor="middle" dominant-baseline="central"
+    font-family="'Outfit', sans-serif" font-weight="800" font-size="180" fill="white" letter-spacing="-6">LP</text>
+  <!-- Circuit nodes -->
+  <circle cx="80" cy="80" r="6" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="432" cy="80" r="6" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="80" cy="432" r="6" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="432" cy="432" r="6" fill="rgba(255,255,255,0.2)"/>
+  <!-- Connecting circuit lines -->
+  <line x1="80" y1="92" x2="80" y2="420" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <line x1="92" y1="432" x2="420" y2="432" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <line x1="432" y1="92" x2="432" y2="420" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <line x1="92" y1="80" x2="420" y2="80" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <!-- Growth arrow -->
+  <line x1="340" y1="400" x2="400" y2="370" stroke="rgba(255,255,255,0.25)" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="392,365 400,370 396,378" stroke="rgba(255,255,255,0.25)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
