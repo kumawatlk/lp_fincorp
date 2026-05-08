@@ -86,7 +86,7 @@ const ServiceDetail = () => {
                 <span className="text-primary text-sm font-semibold mb-2 block">Contact us now</span>
                 <h3 className="text-xl font-bold font-heading mb-2">If need help!</h3>
                 <p className="text-2xl font-bold font-heading mb-2 flex items-center gap-2">
-                  <Phone size={20} className="text-primary" /> 557-3452-234
+                  <Phone size={20} className="text-primary" /> +91 9509069357
                 </p>
                 <p className="text-sm text-white/60 mb-5">or go to contact form:</p>
                 <a

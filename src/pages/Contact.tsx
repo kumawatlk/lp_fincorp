@@ -89,11 +89,11 @@ const Contact = () => {
                     Office address
                   </h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Digital Agency Network 20
-                    <br />
+                    Vaishali nager,Jaipur,Rajasthan
+                    {/* <br />
                     Eastbourne Terrace London,
                     <br />
-                    W2 6LG
+                    W2 6LG */}
                   </p>
                 </div>
               </div>
@@ -105,12 +105,10 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold font-heading text-foreground mb-1">
-                    Telephone number
+                    Phone number
                   </h4>
                   <p className="text-muted-foreground text-sm">
-                    (408) 389-5470
-                    <br />
-                    (408) 456-5470
+                    +91 9509069357
                   </p>
                 </div>
               </div>
@@ -125,9 +123,7 @@ const Contact = () => {
                     Mail address
                   </h4>
                   <p className="text-muted-foreground text-sm">
-                    help@envato.com
-                    <br />
-                    help@support.com
+                    lpfincorpsolution@gmail.com
                   </p>
                 </div>
               </div>
@@ -239,7 +235,7 @@ const Contact = () => {
       </section>
 
       {/* Map Section */}
-      <section className="w-full h-[400px]">
+      {/* <section className="w-full h-[400px]">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.542!2d-0.1196!3d51.5014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2sLondon%20Eye!5e0!3m2!1sen!2suk!4v1600000000000!5m2!1sen!2suk"
           width="100%"
@@ -250,7 +246,7 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
           title="Office Location"
         />
-      </section>
+      </section> */}
 
       <CTAFooter />
     </div>

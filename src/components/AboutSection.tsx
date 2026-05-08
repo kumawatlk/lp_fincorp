@@ -78,7 +78,7 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <Dialog open={isVideoOpen} onOpenChange={setIsVideoOpen}>
+      {/* <Dialog open={isVideoOpen} onOpenChange={setIsVideoOpen}>
         <DialogContent className="max-w-5xl p-0 overflow-hidden bg-black border-0">
           <DialogTitle className="sr-only">Company intro video</DialogTitle>
           {isVideoOpen && (
@@ -94,7 +94,7 @@ const AboutSection = () => {
             </div>
           )}
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
     </section>
   );
 };
